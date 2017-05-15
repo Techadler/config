@@ -1,4 +1,4 @@
-// tslint.json Version: 0.0.1 - Retrievable from: https://github.com/Techadler/config/linter/tslint/tslint.json
+// tslint.json Version: 0.0.1 - Retrievable from: https://github.com/Techadler/config/blob/master/linter/tslint/tslint.json
 {
   "linterOptions": {
     "typeCheck": true
