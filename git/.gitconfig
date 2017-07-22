@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Carsten Rattay
+#	email = mail@domain.tld
+[core]
+	quotepath = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[alias]
+	st = status --short --branch -unormal
+	last = log -1 HEAD
+	unstage = reset HEAD --
+	grog = log --graph --format='format:%C(magenta)%h %Cred%D %C(Yellow)%aD  %Cgreen%an<%C(Cyan)%ae%Cgreen>%n%Creset%B'
