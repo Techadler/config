@@ -1,4 +1,4 @@
-// tslint.json Version: 0.0.2 - Retrievable from: https://github.com/Techadler/config/blob/master/linter/tslint/tslint.json
+// tslint.json Version: 0.0.3 - Retrievable from: https://github.com/Techadler/config/blob/master/linter/tslint/tslint.json
 {
   "linterOptions": {
     "typeCheck": true
@@ -18,7 +18,7 @@
       "check-space"
     ],
     "curly": true,
-    "eofline": true,
+    "eofline": false,
     "file-header": [
       true,
       "Copyright \\d{4}"
