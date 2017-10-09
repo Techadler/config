@@ -1,5 +1,8 @@
-// tslint.json Version: 0.0.3 - Retrievable from: https://github.com/Techadler/config/blob/master/linter/tslint/tslint.json
+// tslint.json Version: 0.0.4 - Retrievable from: https://github.com/Techadler/config/blob/master/linter/tslint/tslint.json
 {
+  "rulesDirectory": [
+    "node_modules/codelyzer"
+  ],
   "linterOptions": {
     "typeCheck": true
   },
@@ -121,6 +124,7 @@
     ],
     "radix": true,
     "semicolon": [
+      true,
       "always"
     ],
     "trailing-comma": [
